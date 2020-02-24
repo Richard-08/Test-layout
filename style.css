@@ -1,0 +1,51 @@
+.main {
+    border-radius: 50px 50px 20px 20px;
+    position: relative;
+    width: 100%;
+    max-height: 940px;
+}
+.img-back {
+    width: 100%;
+    max-height: 940px;
+}
+
+.container {
+    max-width: 1920px;
+    max-height: 1055px;
+}
+
+.main__first-img{
+    position: absolute;
+    top: -20px;
+    left: -100px;
+    right: 80%;
+    max-width: 548px;
+    max-height: 482px;
+}
+.img-left {
+    max-width: 100%;
+    height: 100%;
+}
+
+.main__second-img {
+    position: absolute;
+    top: -23px;
+    left: 60%;
+    right: 12%;
+    max-width: 511px;
+    max-height: 963px;
+}
+
+.img-right {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main__content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
